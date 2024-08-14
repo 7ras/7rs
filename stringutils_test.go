@@ -1,4 +1,4 @@
-package gt7
+package crafting
 
 import "testing"
 
