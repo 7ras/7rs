@@ -1,4 +1,4 @@
-package 7rs
+package gt7
 
 // Reverse reverses the input string.
 func Mix(Items1 string, Items2 string) string {
