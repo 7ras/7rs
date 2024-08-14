@@ -1,15 +1,20 @@
 package stringutils
 
 // Reverse reverses the input string.
-func Reverse(s string) string {
-	runes := []rune(s)
-	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-		runes[i], runes[j] = runes[j], runes[i]
-	}
-	return string(runes)
+func Mix(Items1 string, Items2 string) string {
+
+	Mixer := Items1 +" "+ Items2
+	
+
+	return Mixer
+
+
 }
 
-// IsPalindrome checks if a string is a palindrome.
-func IsPalindrome(s string) bool {
-	return s == Reverse(s)
+func Bucket(Items string)string {
+	if Items == "Water"{
+		return "Water Bucket"
+	}
+
+	return "err"
 }
