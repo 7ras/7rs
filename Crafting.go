@@ -1,4 +1,4 @@
-package gt7
+package crafting
 
 // Reverse reverses the input string.
 func Mix(Items1 string, Items2 string) string {
