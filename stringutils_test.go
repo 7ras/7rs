@@ -1,4 +1,4 @@
-package stringutils
+package gt7
 
 import "testing"
 
